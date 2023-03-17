@@ -50,7 +50,12 @@ void bubbleSortArray() {
 		}
 	}
 }
-    std::cout << "Hello World!\n";
+
+int main (){
+	input();
+	bubbleSortArray();
+	display();
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
