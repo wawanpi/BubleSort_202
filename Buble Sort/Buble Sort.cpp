@@ -28,7 +28,17 @@ void input() {
 	}
 }
 
-{
+void display() {
+	cout << endl;
+	cout << "===================================" << endl;
+	cout << "Element Array yang telah tersususn" << endl;
+	cout << "===================================" << endl;
+	for (int j = 0; j < n; j++) {
+		cout << a[j] << endl;
+	}
+	cout << endl;
+}
+
     std::cout << "Hello World!\n";
 }
 
